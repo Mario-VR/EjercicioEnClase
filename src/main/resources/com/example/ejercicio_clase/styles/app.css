@@ -1,0 +1,192 @@
+#mainPanel {
+    -fx-background-color: red;
+    -fx-spacing: 0px;
+}
+
+#header {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 100px;
+    -fx-background-color: #3e4756;
+    -fx-border-width: 0px;
+}
+#divider {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 20px;
+    -fx-background-color: #dedede;
+    -fx-border-width: 0px;
+}
+#main {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 480px;
+    -fx-background-color: #3e4756;
+    -fx-border-width: 0px;
+}
+.headerButton {
+    -fx-pref-width:100;
+    -fx-pref-height: 100;
+    -fx-background-color: #3e4756;
+    -fx-border-width: 0px;
+}
+#btnSettings {
+    -fx-background-image: url(../Images/gear-50.Png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnUser {
+    -fx-background-image: url(../Images/user-50.Png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnTrophy {
+    -fx-background-image: url(../Images/trophy-50.Png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnPower {
+    -fx-background-image: url(../Images/shutdown-50.Png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#touchPanel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3e4756;
+}
+#leftTouchPanel{
+    -fx-pref-width: 200;
+    -fx-border-color: #3e4756;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+#rightTouchPanel{
+
+    -fx-pref-width: 200;
+    -fx-border-color: #3e4756;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+#lblTouchTitle{
+    -fx-font-family: roboto;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16px;
+}
+#txtTouchText{
+    -fx-font-family: roboto;
+    -fx-font-weight: 600;
+    -fx-fill: DEDEDE;
+    -fx-font-size: 16px;
+}
+#btnToggle {
+    -fx-background-image: url(../images/toggle-50.Png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-background-color: #3e4756;
+}
+#lblToggle{
+    -fx-font-family: roboto;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16px;
+}
+#SubscribePanel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3e4756;
+}
+#leftSubscribePanel{
+    -fx-pref-width: 200;
+    -fx-border-color: #3e4756;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+#rightSubscribePanel{
+    -fx-pref-width: 200;
+    -fx-border-color: #3e4756;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+#lblSubscribeTitle{
+    -fx-font-family: roboto;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16px;
+}
+
+#txtSubscribeText{
+    -fx-font-family: roboto;
+    -fx-font-weight: 600;
+    -fx-fill: DEDEDE;
+    -fx-font-size: 16px;
+}
+#btnSubscribeToggle {
+    -fx-background-image: url(../images/toggle-50.Png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-background-color: #3E4756;
+}
+#lblSubscribeToggle{
+    -fx-font-family: roboto;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16px;
+}
+
+
+
+#divider2 {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 10px;
+    -fx-border-width: 0px;
+}
+
+
+#line{
+    -fx-alignment: center;
+    -fx-stroke: rgb(159,157,157);
+    -fx-stroke-width: 1px;
+}
+
+#divider3 {
+    -fx-pref-width: 300px;
+    -fx-pref-height: 10px;
+    -fx-border-width: 0px;
+}
+
+#foto{
+    -fx-alignment: center;
+}
+
+
+#lbltxtfoto{
+    -fx-text-fill:  #DEDEDE;
+    -fx-font-size: 20px;
+
+}
+
+
+#gauge{
+    -fx-background-image: url(../images/Slider.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center ;
+    -fx-max-width: 400;
+    -fx-min-height: 100;
+}
+
+#line2{
+    -fx-alignment: center;
+    -fx-stroke: rgb(159,157,157);
+    -fx-stroke-width: 1px;
+}
+
+#btnSave,#btnCancel{
+    -fx-font-family: roboto;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-alignment: center;
+}

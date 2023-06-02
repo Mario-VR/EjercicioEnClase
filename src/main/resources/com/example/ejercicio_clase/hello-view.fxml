@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.shape.Line?>
+<?import com.sun.javafx.charts.Legend?>
+<VBox fx:id="mainPanel" styleClass="vbox-class" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.ejercicio_clase.HelloController">
+
+    <HBox styleClass="hbox-class" fx:id="header">
+        <Button styleClass="headerButton" fx:id="btnSettings"/>
+        <Button styleClass="headerButton" fx:id="btnUser"/>
+        <Button styleClass="headerButton" fx:id="btnTrophy"/>
+        <Button styleClass="headerButton" fx:id="btnPower"/>
+    </HBox>
+
+    <Pane styleClass="pane-class" fx:id="divider">  </Pane>
+
+    <VBox styleClass="vbox-class" fx:id="main">
+        <HBox styleClass="hbox-class" fx:id="touchPanel">
+            <VBox styleClass="vbox-class" fx:id="leftTouchPanel">
+                <Label styleClass="label-class" fx:id="lblTouchTitle">
+                    Touch enabled
+                </Label>
+                <TextFlow fx:id="ftTouchText">
+                    <Text fx:id="txtTouchText">
+                        Called 3D touch, the new technology can sense pressure
+                    </Text>
+                </TextFlow>
+            </VBox>
+            <HBox styleClass="hbox-class" fx:id="rightTouchPanel">
+                <Button fx:id="btnToggle"/>
+                <Label fx:id="lblToggle" text="On"/>
+            </HBox>
+        </HBox>
+        <HBox styleClass="hbox-class" fx:id="SubscribePanel">
+            <VBox styleClass="vbox-class" fx:id="leftSubscribePanel">
+                <Label styleClass="label-class" fx:id="lblSubscribeTitle">
+                    AUTO-SUBSCRIBE
+                </Label>
+                <TextFlow fx:id="ftSubscribeText">
+                    <Text fx:id="txtSubscribeText">
+                        Called 3D touch, the new technology can sense pressure
+                    </Text>
+                </TextFlow>
+            </VBox>
+            <HBox styleClass="hbox-class" fx:id="rightSubscribePanel">
+                <Button fx:id="btnSubscribeToggle"/>
+                <Label fx:id="lblSubscribeToggle" text="On"/>
+            </HBox>
+        </HBox>
+
+
+        <Pane styleClass="pane-class" fx:id="divider2">  </Pane>
+
+
+        <VBox  styleClass="vbox-class"     fx:id="foto">
+            <Line fx:id="line" startY="0" startX="25" endX="400" endY="0" />
+
+            <Pane styleClass="pane-class" fx:id="divider3">  </Pane>
+
+
+                <Label styleClass="label-class" fx:id="lbltxtfoto">
+
+                    SCREEN BRIGHTNESS
+                </Label>
+
+
+            <Pane fx:id="gauge" />
+
+            <Line fx:id="line2" startY="0" startX="25" endX="400" endY="0" />
+        </VBox>
+
+
+
+        <HBox styleClass="hbox-class" fx:id="btnSaveCancel">
+            <HBox styleClass="hbox-class" fx:id="save">
+                <Button text="SAVE" fx:id="btnSave"/>
+            </HBox>
+            <HBox styleClass="hbox-class" fx:id="cancel">
+                <Button text="CANCEL" fx:id="btnCancel"/>
+            </HBox>
+        </HBox>
+
+
+
+    </VBox>
+
+
+</VBox>
